@@ -1,0 +1,430 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>components/Comp_controller.qml</file>
+        <file>components/Comp_buttonTempl.qml</file>
+        <file>components/Comp_listItem.qml</file>
+        <file>components/Comp_pageHeaderControl.qml</file>
+        <file>components/Comp_navigationBar.qml</file>
+        <file>components/Comp_velocityGaugeControl.qml</file>
+        <file>components/Comp_arrayWarningPictos.qml</file>
+        <file>components/Comp_listItemLineStatusBarIcon.qml</file>
+        <file>components/Comp_listIcon.qml</file>
+        <file>components/Comp_listItemLargeListSelection.qml</file>
+        <file>components/Comp_listItemStatusBarIcon.qml</file>
+        <file>components/Comp_specificClassification_levelDate.qml</file>
+        <file>components/Comp_ptoSettingGauge.qml</file>
+        <file>components/Comp_specificClassification_levelWorkStart.qml</file>
+        <file>components/Comp_specificClassification_levelActivate.qml</file>
+        <file>components/Comp_buzzerManager.qml</file>
+        <file>components/Comp_listItemUsageHistory.qml</file>
+        <file>components/Comp_listIconNew.qml</file>
+        <file>components/Comp_BrightnessGauge.qml</file>
+        <file>components/Comp_intervalChange.qml</file>
+        <file>components/Comp_listItemLargeStatusBarIcon.qml</file>
+        <file>components/Comp_dateTime.qml</file>
+        <file>components/Comp_specificClassification_calendar.qml</file>
+        <file>components/Comp_boxNumber.qml</file>
+        <file>components/Comp_listItemErrorInfoList.qml</file>
+        <file>pages/PG_home.qml</file>
+        <file>pages/PG_grid.qml</file>
+        <file>pages/PG_largeList.qml</file>
+        <file>pages/PG_calendar.qml</file>
+        <file>pages/PG_dateSelection.qml</file>
+        <file>pages/PG_gauge.qml</file>
+        <file>pages/PG_home2.qml</file>
+        <file>pages/PG_largeListSelection.qml</file>
+        <file>pages/PG_lineStatusBarIcon.qml</file>
+        <file>pages/PG_list.qml</file>
+        <file>pages/PG_listDetails.qml</file>
+        <file>pages/PG_listIcon.qml</file>
+        <file>pages/PG_listLargeStatusBar.qml</file>
+        <file>pages/PG_listStatusBar.qml</file>
+        <file>pages/PG_opTimeMeas.qml</file>
+        <file>pages/PG_passcode.qml</file>
+        <file>pages/PG_preHeating.qml</file>
+        <file>pages/PG_ptoSettings.qml</file>
+        <file>pages/PG_popUp.qml</file>
+        <file>pages/PG_listIconMultiple.qml</file>
+        <file>pages/PG_listMechanic.qml</file>
+        <file>graphics/sun.png</file>
+        <file>graphics/PtoSettings/7.46 Selection light ON.png</file>
+        <file>graphics/PtoSettings/7.47 Selection light OFF.png</file>
+        <file>graphics/PtoSettings/FramePTO1.png</file>
+        <file>graphics/PtoSettings/FramePTO1Blue.png</file>
+        <file>graphics/PtoSettings/FramePTO2.png</file>
+        <file>graphics/PtoSettings/FramePTO2Blue.png</file>
+        <file>graphics/PtoSettings/FramePTO3.png</file>
+        <file>graphics/PtoSettings/FramePTO3Blue.png</file>
+        <file>graphics/PtoSettings/FramePTO5.png</file>
+        <file>graphics/PtoSettings/FramePTO5Blue.png</file>
+        <file>graphics/PtoSettings/FramePTO4.png</file>
+        <file>graphics/PtoSettings/FramePTO4Blue.png</file>
+        <file>graphics/PtoSettings/FramePTO6.png</file>
+        <file>graphics/PtoSettings/FramePTO6Blue.png</file>
+        <file>graphics/PtoSettings/FramePTO7.png</file>
+        <file>graphics/PtoSettings/FramePTO7Blue.png</file>
+        <file>graphics/PtoSettings/FramePTO8.png</file>
+        <file>graphics/PtoSettings/FramePTO8Blue.png</file>
+        <file>graphics/PtoSettings/FramePTO9.png</file>
+        <file>graphics/PtoSettings/FramePTO9Blue.png</file>
+        <file>graphics/PtoSettings/FramePTO10.png</file>
+        <file>graphics/PtoSettings/FramePTO10Blue.png</file>
+        <file>graphics/PtoSettings/FramePTOHighlight.png</file>
+        <file>graphics/PreHeatingSettings/7.81 Check mark - white.png</file>
+        <file>graphics/PreHeatingSettings/7.40 Pre-heating settings - white.png</file>
+        <file>graphics/Menu/4.2 Arrow up - white.png</file>
+        <file>graphics/Menu/4.3 Arrow down - white.png</file>
+        <file>graphics/Menu/4.4 OK - white.png</file>
+        <file>graphics/Menu/4.5 Menu -white.png</file>
+        <file>graphics/Menu/4.6 AUX -white.png</file>
+        <file>graphics/Menu/4.7 Empty white.png</file>
+        <file>graphics/Menu/7.33 Display settings - white.png</file>
+        <file>graphics/Menu/7.35 PTO settings - white.png</file>
+        <file>graphics/Menu/7.37 Operational management mode - white.png</file>
+        <file>graphics/Menu/7.38 Maintenance mode - white.png</file>
+        <file>graphics/Menu/7.39 Error history - white.png</file>
+        <file>graphics/Menu/7.40 Pre-heating settings - white.png</file>
+        <file>graphics/Menu/5.25 Arrow up - grey.png</file>
+        <file>graphics/Menu/5.26 Arrow down - grey.png</file>
+        <file>graphics/Menu/5.27 Arrow up - blue.png</file>
+        <file>graphics/Menu/5.28 Arrow down - blue.png</file>
+        <file>graphics/Menu/4.1 Drop-down background.png</file>
+        <file>graphics/Menu/4.8 Return white.png</file>
+        <file>graphics/Icons/7.41 Language settings - white.png</file>
+        <file>graphics/Icons/7.42 Date and time settings - white.png</file>
+        <file>graphics/Icons/7.43 Unit settings - white.png</file>
+        <file>graphics/Icons/7.44 Sound settings - white.png</file>
+        <file>graphics/Icons/7.45 Brightness settings - white.png</file>
+        <file>graphics/DisplaySettings/7.44 Sound settings - white.png</file>
+        <file>graphics/DisplaySettings/7.49 12-24 hour switching - white.png</file>
+        <file>graphics/DisplaySettings/7.50 Daylight saving time setting - white.png</file>
+        <file>graphics/DisplaySettings/7.51 Time zone - white.png</file>
+        <file>graphics/DisplaySettings/7.52 Temperature - white.png</file>
+        <file>graphics/DisplaySettings/7.53 Day brightness setting - white.png</file>
+        <file>graphics/DisplaySettings/7.54 Night brightness setting - white.png</file>
+        <file>graphics/Home/Gauges/6.1 SOC Gauge 0-segment.png</file>
+        <file>graphics/Home/Gauges/6.12 SOC Gauge - Empty.png</file>
+        <file>graphics/Home/Gauges/6.13 SOC Gauge - Full.png</file>
+        <file>graphics/Home/Icons/7.2 Main battery - white.png</file>
+        <file>graphics/Home/Icons/7.3 Main battery - yellow.png</file>
+        <file>graphics/Home/Icons/7.4 Main battery - red.png</file>
+        <file>graphics/MaintenanceMode/7.66 Maintenance time and reset - white.png</file>
+        <file>graphics/MaintenanceMode/7.67 Maintenance time and reset - orange.png</file>
+        <file>graphics/MaintenanceMode/7.68 Maintenance time and reset - red.png</file>
+        <file>graphics/MaintenanceMode/7.69 Maintenance history - white.png</file>
+        <file>graphics/MaintenanceMode/7.70 Change maintenance interval - white.png</file>
+        <file>graphics/MaintenanceMode/7.71 Hydraulic oil - white.png</file>
+        <file>graphics/MaintenanceMode/7.72 Hydraulic oil - orange.png</file>
+        <file>graphics/MaintenanceMode/7.73 Hydraulic oil - red.png</file>
+        <file>graphics/MaintenanceMode/7.74 Hydraulic oil return filter - white.png</file>
+        <file>graphics/MaintenanceMode/7.75 Hydraulic oil return filter - orange.png</file>
+        <file>graphics/MaintenanceMode/7.76 Hydraulic oil return filter - red.png</file>
+        <file>graphics/MaintenanceMode/7.77 Travel reduction oil - white.png</file>
+        <file>graphics/MaintenanceMode/7.78 Travel reduction oil - orange.png</file>
+        <file>graphics/MaintenanceMode/7.79 Travel reduction oil - red.png</file>
+        <file>graphics/MaintenanceMode/7.80 Reset - white.png</file>
+        <file>graphics/MechanicMode/7.36 Monitor mode - white.png</file>
+        <file>graphics/MechanicMode/7.37 Operational management mode - white.png</file>
+        <file>graphics/MechanicMode/7.38 Maintenance mode - white.png</file>
+        <file>graphics/MechanicMode/7.39 Error history - white.png</file>
+        <file>graphics/MechanicMode/7.82 PTO lock - white.png</file>
+        <file>graphics/MechanicMode/7.83 History mechanic mode - white.png</file>
+        <file>graphics/MechanicMode/7.84 Diagnostic mode - white.png</file>
+        <file>graphics/MechanicMode/7.85 Reset hourmeter - white.png</file>
+        <file>graphics/MechanicMode/7.86 Instrument display - white.png</file>
+        <file>graphics/MechanicMode/7.87 Main control unit - white.png</file>
+        <file>graphics/MechanicMode/7.88 Diagnostic main control unit - white.png</file>
+        <file>graphics/MechanicMode/7.89 Reset - white.png</file>
+        <file>graphics/MonitorMode/7.56 Battery voltage 12V - white.png</file>
+        <file>graphics/OperationalManagementMode/7.37 Operational management mode - white.png</file>
+        <file>graphics/OperationalManagementMode/7.65 Operation time measurement - white.png</file>
+        <file>graphics/OperationalManagementMode/7.80 Reset - white.png</file>
+        <file>graphics/Popups/2.1 Blank pop-up.png</file>
+        <file>graphics/Popups/2.2 Warning pop-up.png</file>
+        <file>graphics/Popups/2.3 Caution pop-up.png</file>
+        <file>graphics/Popups/2.4 Setting completed pop-up.png</file>
+        <file>graphics/Popups/2.5 Cut off pop-up.png</file>
+        <file>graphics/Popups/2.6 Auto shut down pop-up.png</file>
+        <file>graphics/Popups/2.7 Maintenance pop-up.png</file>
+        <file>graphics/Popups/2.8 Pre-heating pop-up.png</file>
+        <file>graphics/Popups/2.9 Battery level pop-up.png</file>
+        <file>graphics/Popups/2.10 PTO lock pop-up.png</file>
+        <file>graphics/ErrorDetailled/5.11 Frame error detail - orange.png</file>
+        <file>graphics/ErrorDetailled/5.12 Frame error detail - red.png</file>
+        <file>graphics/ErrorDetailled/7.1.1 Hourmeter - Black.png</file>
+        <file>graphics/ErrorDetailled/7.1 Hourmeter - home page - white.png</file>
+        <file>graphics/ErrorDetailled/5.64 Frame error detail - grey.png</file>
+        <file>graphics/ErrorList/2.19_Warning home page.png</file>
+        <file>graphics/ErrorList/3.3 WARNING- Large - white.png</file>
+        <file>graphics/ErrorList/3.5 CAUTION - Large - black.png</file>
+        <file>graphics/ErrorList/3.7 Maintenance - Large - white.png</file>
+        <file>graphics/ErrorList/3.9 Inverter DTC - Large - white.png</file>
+        <file>graphics/ErrorList/3.11 Inverter DTC - Large - black.png</file>
+        <file>graphics/ErrorList/3.13 Motor DTC - Large - white.png</file>
+        <file>graphics/ErrorList/3.15 Motor DTC - Large - black.png</file>
+        <file>graphics/ErrorList/3.17 MCU DTC - Large - white.png</file>
+        <file>graphics/ErrorList/3.19 MCU DTC - Large - black.png</file>
+        <file>graphics/ErrorList/3.21 Temperature MCU DTC - Large - white.png</file>
+        <file>graphics/ErrorList/3.23 Temperature MCU DTC - Large - black.png</file>
+        <file>graphics/ErrorList/3.25 Charger DTC - Large - white.png</file>
+        <file>graphics/ErrorList/3.27 Charger DTC - Large - black.png</file>
+        <file>graphics/ErrorList/3.29 BMS DTC -Large - white.png</file>
+        <file>graphics/ErrorList/3.31 BMS DTC -Large - black.png</file>
+        <file>graphics/ErrorList/3.33 Battery temperature DTC - Large - white.png</file>
+        <file>graphics/ErrorList/3.35 Battery temperature DTC - Large - black.png</file>
+        <file>graphics/ErrorList/3.37 Keypad - Large - white.png</file>
+        <file>graphics/ErrorList/3.39 Keypad - Large - black.png</file>
+        <file>graphics/ErrorList/3.41 LCD DTC - Large - white.png</file>
+        <file>graphics/ErrorList/3.43 LCD DTC - Large - black.png</file>
+        <file>graphics/ErrorList/5.7 Frame list.png</file>
+        <file>graphics/Header/3.2 WARNING- Small - white.png</file>
+        <file>graphics/Header/3.4 CAUTION - Small - black.png</file>
+        <file>graphics/Header/3.8 Inverter DTC - Small - white.png</file>
+        <file>graphics/Header/3.10 Inverter DTC - Small - black.png</file>
+        <file>graphics/Header/3.12 Motor DTC - Small - white.png</file>
+        <file>graphics/Header/3.14 Motor DTC - Small - black.png</file>
+        <file>graphics/Header/3.16 MCU DTC - Small - white.png</file>
+        <file>graphics/Header/3.18 MCU DTC - Small - black.png</file>
+        <file>graphics/Header/3.20 Temperature MCU DTC - Small - white.png</file>
+        <file>graphics/Header/3.22 Temperature MCU DTC - Small - black.png</file>
+        <file>graphics/Header/3.24 Charger DTC - Small - white.png</file>
+        <file>graphics/Header/3.26 Charger DTC - Small - black.png</file>
+        <file>graphics/Header/3.28 BMC DTC-Small - white.png</file>
+        <file>graphics/Header/3.30 BMS DTC -Small - black.png</file>
+        <file>graphics/Header/3.32 Battery temperature DTC - Small - white.png</file>
+        <file>graphics/Header/3.34 Battery temperature DTC - Small - black.png</file>
+        <file>graphics/Header/3.36 Keypad - Small - white.png</file>
+        <file>graphics/Header/3.38 Keypad - Small - black.png</file>
+        <file>graphics/Header/3.40 LCD DTC - Small- white.png</file>
+        <file>graphics/Header/3.42 LCD DTC - Small - black.png</file>
+        <file>graphics/Header/5.2.1 Bar on top menu.png</file>
+        <file>graphics/Header/5.2 Bar on top home.png</file>
+        <file>graphics/Header/7.1 Hourmeter - home page - white.png</file>
+        <file>graphics/VehicleSettings/7.55 Auto stop - white.png</file>
+        <file>dtc.json</file>
+        <file>graphics/PtoSettings/5.32 Frame flow limit acc.png</file>
+        <file>graphics/PtoSettings/5.16 Frame large list.png</file>
+        <file>graphics/Header/3.7 Maintenance - Small - black.png</file>
+        <file>graphics/ErrorList/3.8 Maintenance - Large - black.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.06_Engine_electric_start_GN.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.06_Engine_electric_start_RD.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.06_Engine_electric_start_YE.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.07_Joystick_control_mode_GN.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.08_Joystick_control_lock_YE.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.22_Loader_bucket_quick_coupler_unlock_RD.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.25_External_electrical_connection_enable_YE.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.41_Sit_down_RD.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.43_Traction_control_GN.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.45_Seat_belt_RD.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.47_0pen_charging_flap_RD.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.48_Brake_RD.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.53_Exhaust temperature_YE.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.55_Max Speed Limit_YE.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.56_ECO_Mode_GN.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.57_Bucked_Mode_GN.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.58_Forg_lift_Mode_GN.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.59_Power_Mode_GN.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.60_Creep_Mode_GN.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.63_Over_speed_YE.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.64_Power_Mode_YE_LHD.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.65_Power_Mode_YE_Test.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.66_Power_Mode_YE_EEP.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.12_Flasher left.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.13_Flasher right.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.14_Hase.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.15_Coolant temperature_BU.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.15_Coolant temperature_RD.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.19_Warning.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.86.1_Stop_wh.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.87_Stop_wh.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.89_Engine failure_RD.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.89_Engine failure_YE.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.91_Main battery_wh.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.98_Electric motor_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.99_Engine_oil_pressure_RD.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.100_Preheating_YE.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.101_Engine intake air filter_RD.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.104_Loader bucket grapple_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.104_Loader bucket grapple_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.105_Forage harvester_ cutterhead_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.105_Forage harvester_ cutterhead_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.106 Rotary brush_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.106 Rotary brush_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.107 Disk brush_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.107 Disk brush_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.108 Trencher conveyor_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.108 Trencher conveyor_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.109 Vibration plate_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.109 Vibration plate_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.110 Mulcher_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.110 Mulcher_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.111 AUX_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.111 AUX_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 60x60/2.104_Loader bucket grapple_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 60x60/2.105_Forage harvester_ cutterhead_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 60x60/2.106 Rotary brush_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 60x60/2.108 Trencher conveyor_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 60x60/2.109 Vibration plate_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 60x60/2.110 Mulcher_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 60x60/2.111 AUX_WH.png</file>
+        <file>graphics/03_Gauges PNG/3.55_Diesel exhaust fluid DEF selective catalytic reduction SCR fluid_YE.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.07_fuel symbol white.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.08_Battery Symbol RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.08_Battery Symbol white.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.08_Battery Symbol YE.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.12_Gauge Recuparation_60x115_V1.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.27.1_Gauge_speed_0-40kmH_V3.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.28_Main_Battery_temperature_BU.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.28_Main_Battery_temperature_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.29_Battery_charge_indicator_light_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.30_Main_Battery_failure_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.31_Seatsensor_failure_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.32_Electric Motor_failure_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.33_Failure_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.34_Electricalsystem_malfunction_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.36_Transmission_failure_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.38_ECU_failure_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.41_Hydraulic_system_failure_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.42_Hydraulic_level_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.43_Steering_failure_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.44_Engine_cooling_fan_failure_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.46_Battery_failure_RD.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.57_Fuel Filter_RD.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.73_Volume_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.76_Pressure_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.88_Coolant temperature high low_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.90_Fuel Filter_RD.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.90_Fuel filter_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.91_Engine intake air filter_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.92_Road vehicle, filter_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.93_Engine oil filter_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.94_Engine lubricating oil_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.100_Ride control forward_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.101 Ride control backward_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.105 Electric Motor_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.107 Hydraulic temperatur_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.116_Engine_speed_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.120_Soot_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.132_TCU_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.133_ECU_Battery_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.137_Pedal adjustment_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.138_Brake_on_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.139_Brake_off_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.140_Hydraulic oil pressure_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.141_Engine_rotational speed_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.142_Fuel_ pressure_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.143_Engine_start_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.144_Fuel_per_hour_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.10_Lock time WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.15_Lock WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.16_Password Trans WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.17_Password Driver WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.18_Password Owner WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.55_Vehicle settings_wh.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.57_Monitoring mode_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.61_Filter regeneration_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.92_Road vehicle, filter_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.100_Ride control forward_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.101 Ride control backward_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.120_Soot_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.126_Engine emissions filter, regeneration, disable_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 70x70/6.127_Engine emission system failure_WH.png</file>
+        <file>components/Comp_arrayNoticePictos.qml</file>
+        <file>components/Comp_temperatureGauge.qml</file>
+        <file>graphics/03_Gauges PNG/3.02_Pointer 1.png</file>
+        <file>graphics/03_Gauges PNG/3.11_Pointer 2.png</file>
+        <file>graphics/03_Gauges PNG/3.18_Gauge fuel_60x115_full.png</file>
+        <file>graphics/03_Gauges PNG/3.01_Dot.png</file>
+        <file>graphics/03_Gauges PNG/3.07_fuel symbol white.png</file>
+        <file>components/Comp_mainIndicators.qml</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.29_Engine data.png</file>
+        <file>components/Comp_timeValidationGauge.qml</file>
+        <file>pages/PG_immobilizer.qml</file>
+        <file>components/Comp_pinComboBox.qml</file>
+        <file>components/Comp_pinBox.qml</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 30x30/2.02_Forward.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 30x30/2.04_N green.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 25x25/6.121_High beam_BU.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 34x34/2.01_Turtle.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 34x34/2.14_Rabbit.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 34x34/2.104_Loader bucket grapple_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 34x34/2.105_Forage harvester_ cutterhead_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 34x34/2.106 Rotary brush_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 34x34/2.108 Trencher conveyor_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 34x34/2.109 Vibration plate_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 34x34/2.110 Mulcher_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 34x34/2.111 AUX_GN.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 30x30/2.03_Reverse.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.12_Gauge temperature_60x115_V2.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/6.88_Coolant temperature high low_RD.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/6.91_Engine intake air filter_RD.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/6.92_Road vehicle, filter_RD.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/6.92_Road vehicle, filter_YE.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/6.120_Soot_RD.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/6.120_Soot_YE.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.91_Engine intake air filter_RD.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.93_Engine oil filter_RD.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.94_Engine lubricating oil_RD.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.90_Fuel Filter_OR.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.91_Engine intake air filter_OR.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.93_Engine oil filter_OR.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.94_Engine lubricating oil_OR.png</file>
+        <file>pages/PG_immobilizerActivation.qml</file>
+        <file>components/Comp_switchOnOff.qml</file>
+        <file>pages/PG_immobilizerTimeValidation.qml</file>
+        <file>pages/PG_pinCode.qml</file>
+        <file>components/Comp_consumptionGauge.qml</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 25x25/6.145_Electric_motor_over_temperature_RD.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 25x25/6.123_Low recuperation capability_RD.png</file>
+        <file>components/Comp_capacityGauge.qml</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 55x55/2.91_Main battery_wh.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 55x55/3.28_Main_Battery_temperature_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 20x20/6.98_Remaining time_WH.png</file>
+        <file>graphics/Popups/2.11_ECO_popup.png</file>
+        <file>graphics/Popups/2.12_Bucket_popup.png</file>
+        <file>graphics/Popups/2.13_Fork_popup.png</file>
+        <file>graphics/Popups/2.14_PWR_popup.png</file>
+        <file>graphics/Popups/2.15_Creep_popup.png</file>
+        <file>graphics/Popups/2.16_LHD_popup.png</file>
+        <file>graphics/Popups/2.17_TEST_popup.png</file>
+        <file>graphics/Popups/2.18_EEP_popup.png</file>
+        <file>graphics/03_Gauges PNG/2.15_Coolant temperature_WH.png</file>
+        <file>components/Comp_RCSGauge.qml</file>
+        <file>pages/PG_RCSBackward.qml</file>
+        <file>pages/PG_RCSForward.qml</file>
+        <file>pages/PG_ashLevel.qml</file>
+        <file>pages/PG_sootLevel.qml</file>
+        <file>components/Comp_gauge.qml</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 25x25/6.152_Speedmeter_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 25x25/6.76_Pressure_WH.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 55x55/2.91_Main battery_or.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 55x55/2.91_Main battery_rd.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.92_Road vehicle, filter_OR.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.92_Road vehicle, filter_RD.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.147_Electric_Power_OR.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.147_Electric_Power_RD.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.147_Electric_Power_WH.png</file>
+        <file>components/Comp_indicatorLight.qml</file>
+        <file>components/Comp_arrayNoticePictosV8.qml</file>
+        <file>components/Comp_arrayWarningPictosV8e.qml</file>
+        <file>components/Comp_chargeGauge.qml</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.47_Ventilation.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/6.126_Engine emissions filter, regeneration, disable_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.152_Speedmeter_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 25x25/6.73_Volume_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 25x25/6.74_Temperature_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.86_Auto engine stop_WH.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.20_Loader_bucket_RD.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.20_Loader_bucket_YE.png</file>
+        <file>graphics/03_Gauges PNG/03_Gauges PNG 25x25/3.27.1_Gauge_speed_mph_V2.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.67_Load_warning_RD.png</file>
+        <file>graphics/01_Attention Icons PNG/01_Attention Icons PNG 40x40/1.67_Load_warning_YE.png</file>
+        <file>components/Comp_noticePicto.qml</file>
+        <file>graphics/Popups/2.6 Auto shut down diesel pop-up.png</file>
+        <file>graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.98 Electric Motor_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.154_Engine load per cent_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.155_Creep speed_WH.png</file>
+        <file>graphics/06_Menu_Symbols PNG/06_Menu_Symbols PNG 55X55/6.165 Automatic date and time setting WH.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,2647 @@
+{
+    "connections": [
+        {
+            "ConfigJ1939": {
+                "DM1Signal": "dm1",
+                "DM2Signal": "dm2",
+                "ecuname": "0x01",
+                "nodeid": [
+                    "0x28"
+                ],
+                "productname": "Unnamed",
+                "useDM1": true,
+                "useDM2": false,
+                "vendorname": "Unnamed"
+            },
+            "bitrate": 500000,
+            "bus": "can0",
+            "busNo": 0,
+            "fieldbus": "J1939",
+            "mappings": [
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "Request_MCU_HMI",
+                    "pgn": 59944,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 24,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "parameterGroupNumber",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 0,
+                    "transmissionmode": "change_of_state"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_MachineOperatingHours",
+                    "pgn": 65255,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 32,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "FLOAT",
+                            "dataenginename": "opHours_Total",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.05000000074505806,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 1000,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_CCVS1",
+                    "pgn": 65265,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "brakeSwitch",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "wheelBasedVehicleSpeed",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.00390625,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 0,
+                    "transmissionmode": "change_of_state"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_IndicatorLights01",
+                    "pgn": 65472,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 1,
+                            "bitposition": 2,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_DrivingDirection_Blink",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_SeatSwitch",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 6,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_WorkingHydraulic",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_SeatSensorFailure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_AlternatorFailure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "buzzer",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_CoolingTempTooLow",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_GeneralWarning",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_GeneralError",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_Overspeed",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_LampTest",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_DrivingDirection",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 6,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_RabbitTurtle",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 6,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_Service",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 6,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ChargeAirTemperature",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_FuelTooLess",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_CoolingTempTooHigh",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_Preheating",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_BlinkerRight",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_BlinkerTrailer",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_HighBeam",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_HydraulicOilFilter",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_HydraulicOilLevel",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_SteeringSystemFailure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_BeltBuckle",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_TransmissionFault",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_BlinkerLeft",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_AccumulatorPressure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ParkingBrake",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ChargeAirFilter",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_CoolingLevel",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_Alternator",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_IndicatedValues04_Diesel",
+                    "pgn": 65484,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "adBlueTemperature",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": -40,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 4,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "dPFSootState",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "dPFSootLoad",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "dPFAshloadState",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "dPFAshLoad",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "adBlueTankLevel",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 0,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "adBlueTankLevelState",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_IndicatedValues03",
+                    "pgn": 65485,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "additionalCtrlCircuit4_Volume",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "additionalCtrlCircuit3_Volume",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "additionalCtrlCircuit2_Volume",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "additionalCtrlCircuit1_Volume",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_IndicatedValues01",
+                    "pgn": 65487,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "handThrottle",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "footPedal",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "gaugeLoadPressure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 6,
+                            "dataenginedatatype": "FLOAT",
+                            "dataenginename": "machineVelocity",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.25,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "FLOAT",
+                            "dataenginename": "gaugeCoolingTemperature",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "gaugeEngineSpeed",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "MaschineProperties",
+                    "pgn": 65495,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 4,
+                            "bitposition": 4,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "cfg_MachineGeneration",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "cfg_MachineBranding",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 4,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "cfg_EngineEmissionStandard",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "cfg_EngineSupplier",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 0,
+                    "transmissionmode": "change_of_state"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_OperatingHours02",
+                    "pgn": 65505,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 6,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "opHours_ACC4",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.5,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "opHours_ACC3",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.5,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "opHours_ACC2",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.5,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "opHours_ACC1",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.5,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 0,
+                    "transmissionmode": "change_of_state"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_OperatingHours04_Diesel",
+                    "pgn": 65507,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "opHours_TimeSncLstRegeneration",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.5,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 0,
+                    "transmissionmode": "change_of_state"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_IndicatedValues05_Electric",
+                    "pgn": 65483,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "gaugeElectricCurrentConsumption",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "sOH",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "FLOAT",
+                            "dataenginename": "sOC",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "coolingWaterPumpSpeed",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "coolingFanSpeed",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 1000,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_OperatingHours01",
+                    "pgn": 65504,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "FLOAT",
+                            "dataenginename": "opHours_DailyWorkload",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.10000000149011612,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "opHours_EngineIdleTime",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.5,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "opHours_Mission",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.5,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 0,
+                    "transmissionmode": "change_of_state"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_IndicatedValues02",
+                    "pgn": 65486,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 4,
+                            "bitposition": 4,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "remainingSecondBeforeAutoEngStop",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "hMI_Screen",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "driveMode",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 5,
+                            "dataenginedatatype": "FLOAT",
+                            "dataenginename": "fuelLevel",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "coolingTemperature",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": -40,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "hydraulicTemperature",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": -40,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "workingMode",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 1000,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_OperatingHours05_Electric",
+                    "pgn": 65508,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 6,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "opHours_ePTO",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.5,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "opHours_eDriveTrain",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.5,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "remainingBatteryDisChargingTime",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "remainingBatteryChargingTime",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 0,
+                    "transmissionmode": "change_of_state"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "Keypad_Buttons",
+                    "pgn": 65241,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalInputKey12",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalInputKey11",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalInputKey10",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalInputKey09",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalInputKey08",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalInputKey07",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalInputKey06",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalInputKey05",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalInputKey04",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalInputKey03",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalInputKey02",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalInputKey01",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "DCDC1VC_FW_MCU",
+                    "pgn": 61716,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "FLOAT",
+                            "dataenginename": "lowSideCurrent",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.10000000149011612,
+                            "offset": -3217.699951171875,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "FLOAT",
+                            "dataenginename": "highSideVoltage",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.05000000074505806,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "FLOAT",
+                            "dataenginename": "lowSideVoltage",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.009999999776482582,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 6,
+                            "dataenginedatatype": "FLOAT",
+                            "dataenginename": "highSideCurrent",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.10000000149011612,
+                            "offset": -3217.699951171875,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "ZFETC13",
+                    "pgn": 65323,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "zFETC13ePTOActualSpeedFeedback",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 20,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "zFETC13ePTOModeIndicator",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "zFETC13ePTOMaximumSpeedFeedback",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 20,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 6,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "zFETC13ePTORequestedSpeedFdbck",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "zFETC13ePTOMinimumSpeedFeedback",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 20,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0x47",
+                    "dataenginesignaltype": "consumer",
+                    "name": "MenuNavigation",
+                    "pgn": 65412,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 4,
+                            "bitposition": 4,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "immobTransPinMaximumTries",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "immobTransPinLeftTries",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 4,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "immobGeneralPinMaximumTries",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 0,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "immobGeneralPinLeftTries",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 4,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "immobOwnerPinMaximumTries",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "immobOwnerPinLeftTries",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "popUpMessage_Ctrl",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "screenCtrl",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0x03",
+                    "dataenginesignaltype": "consumer",
+                    "name": "SOFT",
+                    "pgn": 65242,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "sOFTTransmissionType",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "sOFTTransmissionPartNumber",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "sOFTSoftwareVersion",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "sOFTSoftwarePartNumber",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "sOFTNmbrOfSftwrIdentFields",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "sOFTCustomerSoftwareNumber",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 0,
+                    "transmissionmode": "change_of_state"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "VEP",
+                    "pgn": 65271,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 16,
+                            "bitposition": 0,
+                            "byteposition": 6,
+                            "dataenginedatatype": "FLOAT",
+                            "dataenginename": "eCU_Batt",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.05000000074505806,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 0,
+                    "transmissionmode": "change_of_state"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "EEC2",
+                    "pgn": 61443,
+                    "priority": 3,
+                    "spns": [
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "estPumpingPercentTorque",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": -125,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 6,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "actlMaxAvailableEngPercentTorque",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "sCRThermalManagementActive",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "dPFThermalManagementActive",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "mmntaryEngMaxPowerEnableFeedback",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "vhcleAccelerationRateLimitStatus",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "accelPedalPos2",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "remoteAccelPedalPos",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "engPercentLoadAtCurrentSpeed",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 8,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "accelPedalPos1",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 0.4000000059604645,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "accelPedal2LowIdleSwitch",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "roadSpeedLimitStatus",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "accelPedalKickdownSwitch",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "accelPedal1LowIdleSwitch",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 50,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "Snsr1",
+                    "pgn": 65319,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 12,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "nSpdSnsrMot",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 16,
+                            "offset": -30000,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 10,
+                            "bitposition": 4,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "pMa",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 10,
+                            "bitposition": 6,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "pMb",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 12,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "nSpdSnsrPmp",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 16,
+                            "offset": -32768,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 12,
+                            "bitposition": 4,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "nSpdSnsrEng",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 0,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "msgCntr1",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 4,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "msgChks1",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "Buttons_and_IOCtrl",
+                    "pgn": 42792,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 3,
+                            "bitposition": 4,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "hMI_ConfigurableInput04_CfgUnusd",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 3,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "hMI_ConfigurableInput03_CfgUnusd",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 3,
+                            "bitposition": 4,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "hMI_ConfigurableInput02_CfgUnusd",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 3,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "hMI_ConfigurableInput01_CfgUnusd",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "buzzer_Ctrl",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalOutput02_Ctrl",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalOutput01_Ctrl",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "btnImmobActivation_Ctrl",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "Buttons_and_IO",
+                    "pgn": 42823,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalOutput02",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "digitalOutput01",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "btnImmobActivation",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_IndicatorLights05_Electric",
+                    "pgn": 65476,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_SOC_Status_Warning",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_SOC_Status_Error",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_HVBatteryOn",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_SOC_Status",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_LowRecuperation",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ElectricSystemFailure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ElectricEngineFailure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_48VBatteryFailure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_EngPwrReductionDueToTemp",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_HVWarning",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_HVIsolation",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_HVFailure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ElectricEngineStartEnable",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ChargingPlugConnected",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ChargingFlapOpened",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ChargingActive",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_CellBalancing",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ElectricEngineStartWarning",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ElectricEngineStartError",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_48VBatteryLowTemperature",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_48VBatteryHighTemperature",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_IndicatorLights04_Diesel",
+                    "pgn": 65475,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_EngineCoolingFanFailure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_OilExchangeRequest",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_NCD_Malfunction",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_DPFRegenerationDisabled",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_DPF_ExhaustLamp",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_DPF_AshLoad",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_WaterInFuel",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_DieselExhaustFluid",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_DPFRegeneration",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_EngineWarning",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_EngineFailure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_EngineOilLevel",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_EngineOilPressure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                },
+                {
+                    "address": "0xff",
+                    "dataenginesignaltype": "consumer",
+                    "name": "_FMC_IndicatorLights02",
+                    "pgn": 65473,
+                    "priority": 6,
+                    "spns": [
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_LoadAlarmWarning",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 2,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_LoadAlarmError",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ImmobilzerIsLocked",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_CruiseControlIsActivated",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ECUWarning",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ECUFailure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_TestModeIsActive",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 7,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_CanFailure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 4,
+                            "bitposition": 4,
+                            "byteposition": 6,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_SelectedGear",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 6,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_TractionControl_ASR",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 6,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_UpperCarrierInPosition",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ReverseSteering",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_ISOSAE",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_RearPlate",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 5,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_FrontPlate",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_RearAxleIsInMiddlePosition",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_FrontAxleIsInMiddlePosition",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_FourWheelSteering",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 4,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_CrabSteering",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_BucketControlChangeOver",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_DayNightChangeOver",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_SwingAxleIsLocked",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 1,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_QuickHitchIsOpen",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 6,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_HydraulicSystemFailure",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 4,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_EcoMode",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 2,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_AutoIdle",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 0,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_AutoEngineStop",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        },
+                        {
+                            "bitlength": 2,
+                            "bitposition": 0,
+                            "byteposition": 3,
+                            "dataenginedatatype": "INT",
+                            "dataenginename": "ind_DrivingDirectionChoosen",
+                            "fieldbusdatatype": "RAW",
+                            "gain": 1,
+                            "offset": 0,
+                            "spn": 0
+                        }
+                    ],
+                    "transmissioninterval": 100,
+                    "transmissionmode": "cyclic"
+                }
+            ]
+        }
+    ],
+    "params": {
+        "config_version": "1.0.0",
+        "created": "26.02.2024 10:34:13",
+        "manager_version": "1.1.5"
+    }
+}
