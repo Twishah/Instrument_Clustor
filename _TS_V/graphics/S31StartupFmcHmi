@@ -1,0 +1,45 @@
+#
+# VS/VI2 startup script 
+#  ==> NOTE! Replace opt/fmc_hmi/bin and fmc_hmi name on lines 18, 27, 31 & 32
+#
+
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+case "$1" in
+    start)
+    # Make sure to wait that Weston is actually running before starting application
+    (
+        while ! pidof weston; do
+            sleep 0.1
+        done
+
+        chmod -R 777 /var/run/user/root
+        XDG_RUNTIME_DIR=/run/user/root /opt/fmc_hmi/bin/fmc_hmi
+        # Alternative command for remote debugging:
+        # XDG_RUNTIME_DIR=/run/user/root QT_MESSAGE_PATTERN='%{time process} %{category} %{function} %{file}:%{line} - %{message}' gdbserver 0.0.0.0:42123 /opt/fmc_fmi/bin/fmc_hmi
+    ) &
+    ;;
+
+
+    stop)    
+    killall fmc_hmi
+    ;;
+
+    restart)
+    killall fmc_hmi
+    XDG_RUNTIME_DIR=/run/user/root /opt/fmc_hmi/bin &
+    ;;
+
+    force-reload)
+    B=3
+    ;;
+
+    force-stop)
+    B=4
+    ;;
+
+    *)
+    echo "Usage: S50startfmc_hmi {start}" >&2
+    exit 1
+    ;;
+esac
