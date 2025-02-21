@@ -1,0 +1,175 @@
+{
+    "TempUnit_isCelsius": {
+        "index": 1
+    },
+    "brightness": {
+        "dayBrightness": 255,
+        "nightBrightness": 77
+    },
+    "buzzer": {
+        "supressBuzzerDTC": 1,
+        "supressBuzzerFlashingLight": 1
+    },
+    "date": {
+        "current_date": "04-04-2024"
+    },
+    "dateTime_auto_timeZone": {
+        "index": 15,
+        "value": "UTC+01:00"
+    },
+    "dateTime_daylightSavingTime": {
+        "index": 0
+    },
+    "dateTime_formatHour": {
+        "index": 1
+    },
+    "dateTime_mode": {
+        "index": 1
+    },
+    "engine": {
+        "index": 1,
+        "stopTime": 10
+    },
+    "immob_activation_time": {
+        "index": 10
+    },
+    "immob_active": {
+        "index": 0
+    },
+    "locale": {
+        "index": 0,
+        "language": "en"
+    },
+    "maintenance_history": {
+        "DATA_1": {
+            "date1": "",
+            "date2": "",
+            "hourMeter1": 0,
+            "hourMeter2": 0
+        },
+        "DATA_2": {
+            "date1": "",
+            "date2": "",
+            "hourMeter1": 0,
+            "hourMeter2": 0
+        },
+        "DATA_3": {
+            "date1": "",
+            "date2": "",
+            "hourMeter1": 0,
+            "hourMeter2": 0
+        },
+        "DATA_4": {
+            "date1": "",
+            "date2": "",
+            "hourMeter1": 0,
+            "hourMeter2": 0
+        }
+    },
+    "maintenance_hydraulicOil": {
+        "interval_value": 0
+    },
+    "maintenance_hydraulicOilRetFilter": {
+        "interval_value": 0
+    },
+    "maintenance_hydraulicOilRetLineFilter": {
+        "interval_value": 0
+    },
+    "maintenance_travelReductionOil": {
+        "interval_value": 0
+    },
+    "mechanic_history": {
+    },
+    "mechanic_history_nb_max": {
+        "nb_max": 0
+    },
+    "pre_heating": {
+        "active": false,
+        "am_pm": "PM",
+        "date": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "start_hours": 11,
+        "start_minutes": 35
+    },
+    "pressure_unit": {
+        "index": 0
+    },
+    "pto_index": {
+        "current_index": 1
+    },
+    "pto_settings": {
+        "ACC_1": {
+            "accessory_icon_source": "qrc:/graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.111 AUX",
+            "pto1_left": 10,
+            "pto1_right": 10,
+            "pto2_left": 10,
+            "pto2_right": 10
+        },
+        "ACC_2": {
+            "accessory_icon_source": "qrc:/graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.105_Forage harvester_ cutterhead",
+            "pto1_left": 5,
+            "pto1_right": 5,
+            "pto2_left": 5,
+            "pto2_right": 5
+        },
+        "ACC_3": {
+            "accessory_icon_source": "qrc:/graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.106 Rotary brush",
+            "pto1_left": 8,
+            "pto1_right": 8,
+            "pto2_left": 8,
+            "pto2_right": 8
+        },
+        "ACC_4": {
+            "accessory_icon_source": "qrc:/graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.110 Mulcher",
+            "pto1_left": 2,
+            "pto1_right": 2,
+            "pto2_left": 2,
+            "pto2_right": 2
+        },
+        "ACC_5": {
+            "accessory_icon_source": "qrc:/graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.108 Trencher conveyor",
+            "pto1_left": 10,
+            "pto1_right": 10,
+            "pto2_left": 10,
+            "pto2_right": 10
+        },
+        "ACC_6": {
+            "accessory_icon_source": "qrc:/graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.104_Loader bucket grapple",
+            "pto1_left": 7,
+            "pto1_right": 7,
+            "pto2_left": 7,
+            "pto2_right": 7
+        },
+        "ACC_7": {
+            "accessory_icon_source": "qrc:/graphics/02_Main_Icons PNG/02_Main_Icons PNG 25x25/2.109 Vibration plate",
+            "pto1_left": 6,
+            "pto1_right": 6,
+            "pto2_left": 6,
+            "pto2_right": 6
+        }
+    },
+    "rcs_settings": {
+        "rcs_backward": 5,
+        "rcs_forward": 5
+    },
+    "sound_setting": {
+        "value": 1
+    },
+    "speed_unit_isKmh": {
+        "index": 1
+    },
+    "time": {
+        "current_time": "AM 13:30",
+        "current_timePeriod": true
+    },
+    "volume_unit": {
+        "index": 0
+    }
+}
